@@ -1,0 +1,20 @@
+.containerLinks{
+    display: flex;
+    justify-content: space-around;
+   
+        
+}
+
+.link button{
+    color: white;
+    background-color:rgb(83, 17, 17);
+    border-radius: 60px;
+    width: 110%;
+
+}
+.link button:hover{
+    color: white;
+    background-color:red;
+    cursor:pointer
+
+}
