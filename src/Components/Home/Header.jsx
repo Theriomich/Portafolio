@@ -12,15 +12,21 @@ function Header(props) {
         <Subtitle />
       </header>
       <div className="containerLinks">
-        <Link className="link" to="/About/">
-          <button>Acerca de Mi</button>
-        </Link>
-        <Link className="link" to="/Proyects/">
-          <button>Proyectos</button>
-        </Link>
-        <Link className="link" to="/Contact/">
-          <button>Contacto</button>
-        </Link>
+        <div className="btn btn-one link">
+          <Link className="link" to="/About/">
+            <span aria-label="Acerca de Mi">Acerca de Mi</span>
+          </Link>
+        </div>
+        <div className="btn btn-two">
+          <Link className="link" to="/Proyects/">
+            <span>Proyectos</span>
+          </Link>
+        </div>
+        <div className="btn btn-three">
+          <Link className="link" to="/Contact/">
+            <span aria-label="Contacto">Contacto</span>
+          </Link>
+        </div>
       </div>
     </div>
   );
