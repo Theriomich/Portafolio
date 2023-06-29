@@ -5,6 +5,8 @@ import { useEffect } from "react";
 import guitar from "./Images/guitar.jpeg";
 import record from "./Images/recording.jpeg";
 import laboratoria from "./Images/laboratoria.JPG";
+import pcwork from "./Images/pcclouse.jpeg";
+import clouseup from "./Images/closeup.jpeg";
 
 function AboutMe() {
   useEffect(() => {
@@ -76,6 +78,48 @@ function AboutMe() {
         <img
           src={laboratoria}
           id="img-guitar"
+          className="wow slideInLeft"
+          data-wow-duration="2s"
+          data-wow-delay="0.5s"
+        />
+      </section>
+      <section className="section">
+        <p className="section--yellow wow fadeInDown">
+          Adquirí experiencia sólida en lenguajes de programación como HTML, CSS
+          y JavaScript, así como en el uso de herramientas y tecnologías como
+          React y Firebase. Además Laboratoria nos sumergió en un entorno de
+          trabajo que reflejaba fielmente el mundo laboral del desarrollo web.
+          Utilizamos sprints y adoptamos la metodología Scrum para planificar y
+          realizar entregas iterativas, lo cual nos permitió desarrollar
+          habilidades en gestión de proyectos y colaboración efectiva en
+          equipos.
+        </p>
+        <img
+          src={pcwork}
+          id="img-pc"
+          className="section--yellow wow fadeInRight"
+          data-wow-delay="0.5s"
+          style={{
+            visibility: "visible",
+            WebkitAnimationDelay: "2s",
+            MozAnimationDelay: "2s",
+            animationDelay: "2s",
+          }}
+        />
+      </section>
+      <section className="section">
+        <p className="section--yellow wow fadeInDown">
+          He descubierto que mi verdadera pasión radica en el desarrollo web. La
+          resolución de problemas, la creatividad y la oportunidad de construir
+          soluciones tecnológicas me motivan profundamente. Además, mi
+          experiencia en el área musical me ha brindado habilidades valiosas
+          como la el trabajo en equipo, la organización y la atención al
+          detalle, que me han resultado muy beneficiosas en mi transición al
+          mundo del desarrollo.
+        </p>
+        <img
+          src={clouseup}
+          id="img-me"
           className="wow slideInLeft"
           data-wow-duration="2s"
           data-wow-delay="0.5s"
