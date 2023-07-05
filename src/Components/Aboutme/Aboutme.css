@@ -1,12 +1,12 @@
-h1{
+.About{
 color:white;
 text-align: center;
+margin-bottom: 5%;
 }
 
 p {
     color: white;
     text-align: justify;
-
     
 }
 
@@ -21,13 +21,16 @@ p {
 #img-guitar{
     
     width: 50%;
+    margin-bottom: 5%;
 
 }
 
 #img-pc{
     width: 50%;
+    margin-bottom: 5%;
 }
 
 #img-me{
     width: 50%;
+    margin-bottom: 5%;
 }

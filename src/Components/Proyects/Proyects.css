@@ -1,0 +1,10 @@
+.divCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    align-content: stretch;
+    
+}
+
+h1{ color: aliceblue;}

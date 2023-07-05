@@ -1,3 +1,7 @@
+.App{
+	background-color: black;
+}
+
 .containerLinks{
     display: flex;
     justify-content: space-around;             

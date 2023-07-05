@@ -16,7 +16,7 @@ function AboutMe() {
   }, []);
   return (
     <>
-      <h1>Acerca de mi</h1>
+      <h1 className="About">Acerca de mi</h1>
       <section className="section">
         <p className="section--yellow wow fadeInDown">
           Mi nombre es Michelle y vivo en viña del Mar. Estudié interpretación
