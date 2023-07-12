@@ -4,6 +4,11 @@ import "./Proyects.css";
 import { Link } from "react-router-dom";
 import CardValidation from "./Gifs/Cardv.gif";
 import HarryPotter from "./Gifs/HarryPotter.gif";
+import Rionegro from "./Gifs/Rionegro.gif";
+import RedSocial from "./Gifs/RedSocial.gif";
+import MdLinks from "./Gifs/Mdlinks.gif";
+import Burger from "./Gifs/Burguer Queen.gif";
+import Eccomerse from "./Gifs/EccomerseMich.gif";
 
 function Proyects() {
   return (
@@ -20,7 +25,9 @@ function Proyects() {
               tarjeta de credito para poder hacer efectiva la compra.
             </Card.Text>
             <Link to="https://theriomich.github.io/SCL021-card-validation/src/">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button variant="primary" className="buttons">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
@@ -31,23 +38,87 @@ function Proyects() {
             <Card.Text>
               Segundo proyecto realizado en el Bootcamp de Laboratoria. Una
               página para fanáticos de Harry Potter que permite filtrar
-              personajes, posiones, hechizos y curiosidades. Con ambiente y
+              personajes, pociones, hechizos y curiosidades. Con ambiente y
               música had hok.
             </Card.Text>
             <Link to="https://theriomich.github.io/SCL021-data-lovers/">
-              <Button variant="primary">Ver Protecto</Button>
+              <Button variant="primary" className="buttons">
+                Ver Protecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
         <Card style={{ width: "18rem", backgroundColor: "black" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src={RedSocial} />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title style={{ color: "white" }}>Red Social</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Tercer proyecto realizado dentro del Bootcamp. Una red social que
+              permite a los usuarios crearse una cuenta, iniciar sesión,
+              publicar y dar like a posts
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Link to="https://technology-red-social.web.app/">
+              <Button variant="primary">Ver Proyecto</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem", backgroundColor: "black" }}>
+          <Card.Img variant="top" src={MdLinks} />
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>MD Links</Card.Title>
+            <Card.Text>
+              Cuarto Proyecto realizado en solitario, con Node JS. Una librería
+              para desarrolladores que permite leer links, mostrarlos y mostrar
+              su estado, si estan o no funcionando. Descargable via Node
+            </Card.Text>
+            <Link to="https://www.npmjs.com/package/md-links-finder-theriomich">
+              <Button variant="primary">Ver Proyecto</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem", backgroundColor: "black" }}>
+          <Card.Img variant="top" src={Burger} />
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>Burger Queen</Card.Title>
+            <Card.Text>
+              Quinto proyecto en solitario dentro del Bootcamp, usando la
+              librería de React. En este proyecto hice una página para una
+              hamburguesería, que permite agregar productos a un carro de
+              compras
+            </Card.Text>
+            <Link to="https://krusty-burguer.netlify.app/">
+              <Button variant="primary">Ver Proyecto</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem", backgroundColor: "black" }}>
+          <Card.Img variant="top" src={Eccomerse} />
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>
+              Eccomerse Tecnológico
+            </Card.Title>
+            <Card.Text>
+              Proyecto realizado en solitario para practicar mis skills en
+              React. Es un eccomerse ficticio que permite al usuario agregar
+              productos al carro, eliminarlos y que se vayan sumando y
+              agregando.
+            </Card.Text>
+            <Link to="https://shopping-cart-mich.netlify.app/">
+              <Button variant="primary">Ver Proyecto</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem", backgroundColor: "black" }}>
+          <Card.Img variant="top" src={Rionegro} />
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>Río Negro TV</Card.Title>
+            <Card.Text>
+              Página web que realicé a una empresa productora de medios y
+              radiodifusión para mostrar su trabajo
+            </Card.Text>
+            <Link to="https://www.rionegrotv.cl/">
+              <Button variant="primary">Ver Proyecto</Button>
+            </Link>
           </Card.Body>
         </Card>
       </div>

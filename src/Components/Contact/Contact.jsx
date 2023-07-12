@@ -26,7 +26,7 @@ function Contact() {
   };
   return (
     <>
-      <h1 className="TitleContact">Contacto</h1>;
+      <h1 className="TitleContact">Contacto</h1>
       <form ref={form} onSubmit={sendEmail} className="field">
         <label>Nombre</label>
         <input type="text" name="user_name" />
