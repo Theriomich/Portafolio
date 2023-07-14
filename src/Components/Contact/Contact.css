@@ -4,6 +4,7 @@ h1, .TitleContact{
 }
 .field {
     margin-bottom: 5px;
+    justify-content: center;
     
     
   }
@@ -12,6 +13,7 @@ h1, .TitleContact{
     display: block;
     font-size: 12px;
     color: #b0afaf;
+    justify-content: center;
    
     
   }
@@ -22,6 +24,7 @@ h1, .TitleContact{
     line-height: 1.5;
     font-size: 14px;
     margin-bottom: 10px;
+    justify-content: center;
     
   }
   

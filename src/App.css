@@ -2,7 +2,7 @@ html {
   background-color: black;
 }
 
-.App-header {
+.App {
   text-align: center;
   width: 100%;
   height: 500px;
@@ -12,12 +12,4 @@ html {
   
 }
 
-.App-header img{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    border-radius: 3% 3% 7% 7%;
-    
-    
-  
-}
+

@@ -4,10 +4,23 @@
     justify-content: center;
     gap:50px;
     align-content: stretch;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;       
     
 }
+
+@media (max-width: 700px) {
+	.divCards {
+	  flex-direction: column !important;
+      align-content: center;
+	  gap: 20px;
+	}
+    .card-body{
+        width: 90%;
+
+    }
+  }
+
+
 
 h1{ color: aliceblue;}
 

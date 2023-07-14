@@ -7,11 +7,20 @@ function Header(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={BannerFrontEnd} alt="banner" />
-        <h2>{props.title}</h2>
+        <img src={BannerFrontEnd} className="imgBanner" alt="banner" />
+        <div>
+          <h2 className="title">{props.title}</h2>
+        </div>
         <Subtitle />
       </header>
-      <div className="containerLinks">
+      <div
+        className="containerLinks"
+        style={{
+          "@media (max-width: 700px)": {
+            flexDirection: "column",
+          },
+        }}
+      >
         <div className="btn btn-one link">
           <Link className="link" to="/About/">
             <span aria-label="Acerca de Mi">Acerca de Mi</span>
