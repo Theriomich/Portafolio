@@ -2,6 +2,7 @@ import BannerFrontEnd from "../../img/BannerFrontEnd.png";
 import Subtitle from "./SubTitle";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import cursorImage from "./assets/cursor.png";
 
 function Header(props) {
   return (
@@ -13,14 +14,7 @@ function Header(props) {
         </div>
         <Subtitle />
       </header>
-      <div
-        className="containerLinks"
-        style={{
-          "@media (max-width: 700px)": {
-            flexDirection: "column",
-          },
-        }}
-      >
+      <div className="containerLinks">
         <div className="btn btn-one link">
           <Link className="link" to="/About/">
             <span aria-label="Acerca de Mi">Acerca de Mi</span>

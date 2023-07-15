@@ -18,7 +18,7 @@ function AboutMe() {
     <>
       <h1 className="About">Acerca de mi</h1>
       <section className="section">
-        <p className="section--yellow wow fadeInDown">
+        <p id="pAbout" className="section--yellow wow fadeInDown">
           Mi nombre es Michelle y vivo en viña del Mar. Estudié interpretación
           musical en guitarra eléctrica, en la Escuela Moderna de Música durante
           6 años. Mi paso de la música a la tecnología fue cuando comencé a
@@ -40,7 +40,7 @@ function AboutMe() {
       </section>
 
       <section className="section">
-        <p className="section--yellow wow fadeInDown">
+        <p id="pAbout" className="section--yellow wow fadeInDown">
           Este encuentro entre la música y la tecnología despertó en mí un
           interés más profundo por la tecnología en sí misma. Comencé a explorar
           más allá del ámbito musical y descubrí que la tecnología tenía un
@@ -61,7 +61,7 @@ function AboutMe() {
         />
       </section>
       <section className="section">
-        <p className="section--yellow wow fadeInDown">
+        <p id="pAbout" className="section--yellow wow fadeInDown">
           Me formé en Laboratoria ya que fui seleccionada entre miles de
           solicitantes para unirme a su programa, superando pruebas técnicas y
           evaluaciones exhaustivas que pusieron a prueba mi capacidad de
@@ -84,7 +84,7 @@ function AboutMe() {
         />
       </section>
       <section className="section">
-        <p className="section--yellow wow fadeInDown">
+        <p id="pAbout" className="section--yellow wow fadeInDown">
           Adquirí experiencia sólida en lenguajes de programación como HTML, CSS
           y JavaScript, así como en el uso de herramientas y tecnologías como
           React y Firebase. Además Laboratoria nos sumergió en un entorno de
@@ -108,7 +108,7 @@ function AboutMe() {
         />
       </section>
       <section className="section">
-        <p className="section--yellow wow fadeInDown">
+        <p id="pAbout" className="section--yellow wow fadeInDown">
           He descubierto que mi verdadera pasión radica en el desarrollo web. La
           resolución de problemas, la creatividad y la oportunidad de construir
           soluciones tecnológicas me motivan profundamente. Además, mi

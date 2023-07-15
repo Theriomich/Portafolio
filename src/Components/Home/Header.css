@@ -1,6 +1,9 @@
 .App{
-	background-color: black;
+	background-color: black;	
+	cursor: url(https://cdn.custom-cursor.com/db/18176/32/glitter-fire-flame-glitter-cursor.png),
+    pointer;
 }
+
 
 .App-header{
 	justify-content: space-between;
@@ -42,9 +45,11 @@
   }
 
   @media (max-width: 700px) {
-	.containerLinks .btn {
+	.containerLinks  {
+		
+		background-color: aqua;
 	  flex-direction: column !important;
-	  gap: 20px;
+	  gap: 50px;
 	}
   }
   
@@ -77,6 +82,10 @@
   
 }
 
+.btn-one:hover,.btn-two:hover,.btn-three:hover{
+	cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
+}
+
 .btn-one::before {
 	content: attr(aria-label);
   pointer-events: none;
@@ -102,6 +111,7 @@
 .btn-one:hover::before {
 	opacity: 1;	
 	transform: scale(1, 1);	
+	
 }
 .btn-one::after {
 	content: '';
@@ -117,6 +127,11 @@
 .btn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
+	
+}
+
+.btn-one span:hover{
+	cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
 }
 
 /* 
@@ -137,6 +152,11 @@
 	height: 100%;	
 	
 }
+
+.btn-two span:hover{
+	cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
+}
+
 .btn-two::before {
 	content: '';
   pointer-events: none;
@@ -165,10 +185,12 @@
 .btn-two:hover::before {
   transform: rotate(-45deg);
   background-color: rgba(255,255,255,0);
+  cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
 }
 .btn-two:hover::after {
   transform: rotate(45deg);
   background-color: rgba(255,255,255,0);
+  cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
 }
 
 /* 
@@ -215,3 +237,9 @@
 	opacity: 1;
 	transform: scale(1,1);
 }
+
+
+.btn-three span:hover{
+	cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer
+}
+

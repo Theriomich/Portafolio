@@ -34,11 +34,13 @@ function Contact() {
         <input type="email" name="user_email" />
         <label>Mensaje</label>
         <textarea name="message" style={{ width: "250px" }} />
-        <input type="submit" value="Enviar" />
+        <input className="submitButton" type="submit" value="Enviar" />
       </form>
-      <h3 className="subtitleContact">Contactame directamente por:</h3>
-      <p className="paragraph">Correo: M.cifuentes.mankoch@gmail.com</p>
-      <p className="paragraph">Número de teléfono: 984943280</p>
+      <div className="footerContact">
+        <h3 className="subtitleContact">Contactame directamente por:</h3>
+        <p className="paragraph">Correo: M.cifuentes.mankoch@gmail.com</p>
+        <p className="paragraph">Número de teléfono: 984943280</p>
+      </div>
     </>
   );
 }

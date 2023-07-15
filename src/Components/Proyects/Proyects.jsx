@@ -58,7 +58,9 @@ function Proyects() {
               publicar y dar like a posts
             </Card.Text>
             <Link to="https://technology-red-social.web.app/">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
@@ -72,7 +74,9 @@ function Proyects() {
               su estado, si estan o no funcionando. Descargable via Node
             </Card.Text>
             <Link to="https://www.npmjs.com/package/md-links-finder-theriomich">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
@@ -87,7 +91,9 @@ function Proyects() {
               compras
             </Card.Text>
             <Link to="https://krusty-burguer.netlify.app/">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
@@ -104,7 +110,9 @@ function Proyects() {
               agregando.
             </Card.Text>
             <Link to="https://shopping-cart-mich.netlify.app/">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>
@@ -117,7 +125,9 @@ function Proyects() {
               radiodifusión para mostrar su trabajo
             </Card.Text>
             <Link to="https://www.rionegrotv.cl/">
-              <Button variant="primary">Ver Proyecto</Button>
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
             </Link>
           </Card.Body>
         </Card>

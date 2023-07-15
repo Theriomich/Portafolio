@@ -8,7 +8,16 @@
     
 }
 
-@media (max-width: 700px) {
+
+.buttons:hover{
+  
+    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important
+  
+}
+
+h1{ color: aliceblue;}
+
+@media (max-width: 800px) {
 	.divCards {
 	  flex-direction: column !important;
       align-content: center;
@@ -20,8 +29,5 @@
     }
   }
 
-
-
-h1{ color: aliceblue;}
 
 
