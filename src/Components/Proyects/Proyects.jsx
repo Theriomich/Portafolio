@@ -9,10 +9,16 @@ import RedSocial from "./Gifs/RedSocial.gif";
 import MdLinks from "./Gifs/Mdlinks.gif";
 import Burger from "./Gifs/Burguer Queen.gif";
 import Eccomerse from "./Gifs/EccomerseMich.gif";
+import HomeImg from "./Images/homesn.png";
 
 function Proyects() {
   return (
     <>
+      <div className="backHome">
+        <Link to="/">
+          <img src={HomeImg}></img>
+        </Link>
+      </div>
       <h1>Mis proyectos</h1>;
       <div className="divCards">
         <Card style={{ width: "18rem", backgroundColor: "black" }}>

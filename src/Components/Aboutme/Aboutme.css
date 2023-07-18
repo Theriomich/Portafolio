@@ -10,6 +10,24 @@ p {
   
 }
 
+.backHome{
+    display: flex;
+    justify-content: start;
+    margin-top: 1%;
+   
+  }
+
+  .backHome img{
+    width: 15%;
+    
+  }
+
+  .backHome img:hover{
+    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important;
+    transform: scale(1.07); 
+    transition: transform 0.3s ease; 
+  }
+
 #pAbout{
     margin-left: 10%;
     margin-right:10%;

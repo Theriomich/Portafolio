@@ -7,6 +7,8 @@ import record from "./Images/recording.jpeg";
 import laboratoria from "./Images/laboratoria.JPG";
 import pcwork from "./Images/pcclouse.jpeg";
 import clouseup from "./Images/closeup.jpeg";
+import HomeImg from "./Images/homesn.png";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   useEffect(() => {
@@ -16,6 +18,11 @@ function AboutMe() {
   }, []);
   return (
     <>
+      <div className="backHome">
+        <Link to="/">
+          <img src={HomeImg}></img>
+        </Link>
+      </div>
       <h1 className="About">Acerca de mi</h1>
       <section className="section">
         <p id="pAbout" className="section--yellow wow fadeInDown">

@@ -1,0 +1,66 @@
+:root {
+    --orange: #9b5108;
+    --fb-blue: #2521a1e9;
+    --insta-pink: #c13584;
+    --github-white: #f1f1f1;
+    --yt-red: #f70000;
+  }
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+ 
+  footer {
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+    width: 100%;   
+    padding: 0 0 5px 0;
+    justify-content: baseline;
+    bottom: 0;
+    position:absolute
+  }
+  
+  footer p {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .social-links i {
+    padding: 10px;
+    color: grey;
+  }
+  
+  .logos:hover {
+    transition: 0.4s;
+    transform: translatey(-5px);
+  }
+  
+  .social-links a .fa-linkedin:hover {
+    color: var(--fb-blue);
+  }
+  
+  .social-links a .fa-github:hover {
+    color: var(--github-white);
+  }
+  
+ 

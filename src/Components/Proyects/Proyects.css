@@ -11,8 +11,9 @@
 
 .buttons:hover{
   
-    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important
-  
+    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important;
+    transform: scale(1.07); 
+    transition: transform 0.3s ease; 
 }
 
 h1{ color: aliceblue;}
