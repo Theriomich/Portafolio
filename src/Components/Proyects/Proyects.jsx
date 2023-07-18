@@ -10,6 +10,7 @@ import MdLinks from "./Gifs/Mdlinks.gif";
 import Burger from "./Gifs/Burguer Queen.gif";
 import Eccomerse from "./Gifs/EccomerseMich.gif";
 import HomeImg from "./Images/homesn.png";
+import Footer from "../Footer/Footer";
 
 function Proyects() {
   return (
@@ -138,6 +139,9 @@ function Proyects() {
           </Card.Body>
         </Card>
       </div>
+      <footer className="Footer">
+        <Footer />
+      </footer>
     </>
   );
 }

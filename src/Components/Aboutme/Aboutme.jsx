@@ -9,6 +9,7 @@ import pcwork from "./Images/pcclouse.jpeg";
 import clouseup from "./Images/closeup.jpeg";
 import HomeImg from "./Images/homesn.png";
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 function AboutMe() {
   useEffect(() => {
@@ -132,6 +133,9 @@ function AboutMe() {
           data-wow-delay="0.5s"
         />
       </section>
+      <div className="Footer">
+        <Footer />
+      </div>
     </>
   );
 }

@@ -34,7 +34,7 @@ function Header(props) {
           </div>
         </div>
       </div>
-      <div className="Footer">
+      <div className="Footer" id="homeFooter">
         <Footer />
       </div>
     </>

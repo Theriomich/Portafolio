@@ -19,6 +19,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
+    cursor: url(https://cdn.custom-cursor.com/db/18176/32/glitter-fire-flame-glitter-cursor.png),
+    pointer;
   }
   
  
@@ -27,15 +29,19 @@
     color: white;
     text-align: center;
     width: 100%;   
-    padding: 0 0 5px 0;
+    padding: 0 ;
     justify-content: baseline;
     bottom: 0;
-    position:absolute
+    left: 0;
+    cursor: url(https://cdn.custom-cursor.com/db/18176/32/glitter-fire-flame-glitter-cursor.png),
+    pointer;
   }
   
   footer p {
     padding: 10px 0;
     text-align: center;
+    cursor: url(https://cdn.custom-cursor.com/db/18176/32/glitter-fire-flame-glitter-cursor.png),
+    pointer;
   }
   
   .social-links {
@@ -43,6 +49,8 @@
     justify-content: center;
     align-items: center;
     font-size: large;
+    cursor: url(https://cdn.custom-cursor.com/db/18176/32/glitter-fire-flame-glitter-cursor.png),
+    pointer;
   }
   
   .social-links i {
@@ -57,10 +65,12 @@
   
   .social-links a .fa-linkedin:hover {
     color: var(--fb-blue);
+    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important;
   }
   
   .social-links a .fa-github:hover {
     color: var(--github-white);
+    cursor: url("https://cdn.custom-cursor.com/db/18175/32/glitter-fire-flame-glitter-pointer.png"),pointer  !important;
   }
   
  

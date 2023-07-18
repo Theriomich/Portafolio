@@ -5,6 +5,7 @@ import withReactContent from "sweetalert2-react-content";
 import "./Contact.css";
 import HomeImg from "./Images/homesn.png";
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   const MySwal = withReactContent(Swal);
@@ -59,6 +60,9 @@ function Contact() {
         <p className="paragraph">Correo: M.cifuentes.mankoch@gmail.com</p>
         <p className="paragraph">Número de teléfono: 984943280</p>
       </div>
+      <footer className="Footer" id="contactFooter">
+        <Footer />
+      </footer>
     </>
   );
 }
