@@ -1,6 +1,8 @@
+
+@media (min-width: 800px){
+
 .divCards{
-    display: flex;
-    flex-direction: row;
+    display: flex; 
     justify-content: center;
     gap:50px;
     align-content: stretch;
@@ -8,6 +10,9 @@
     
     
 }
+}
+
+
 
 
 .buttons:hover{
