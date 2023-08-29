@@ -9,6 +9,7 @@ import RedSocial from "./Gifs/RedSocial.gif";
 import MdLinks from "./Gifs/Mdlinks.gif";
 import Burger from "./Gifs/Burguer Queen.gif";
 import Eccomerse from "./Gifs/EccomerseMich.gif";
+import RickMorty from "./Gifs/RICKMORTY.gif";
 import HomeImg from "./Images/homesn.png";
 import Footer from "../Footer/Footer";
 
@@ -132,6 +133,24 @@ function Proyects() {
               radiodifusión para mostrar su trabajo
             </Card.Text>
             <Link to="https://www.rionegrotv.cl/">
+              <Button className="buttons" variant="primary">
+                Ver Proyecto
+              </Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem", backgroundColor: "black" }}>
+          <Card.Img variant="top" src={RickMorty} />
+          <Card.Body>
+            <Card.Title style={{ color: "white" }}>
+              Rick And Morty App
+            </Card.Title>
+            <Card.Text>
+              Desafío técnico que realice extrayendo personajes de una API de
+              Rick And Morty, usando React, rutas dinámicas, axios para la
+              llamada a la API y Bootstrap
+            </Card.Text>
+            <Link to="https://rick-and-morty-mich.netlify.app/">
               <Button className="buttons" variant="primary">
                 Ver Proyecto
               </Button>
